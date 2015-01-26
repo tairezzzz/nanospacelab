@@ -123,6 +123,7 @@ h1, h2, h3, h4, h5, h6 {
     	}
     }
 	.navbar-nav>.active>a {
+        
 		border-radius: 0;
 		color: white;
 		background-color: @brand-primary;
@@ -143,6 +144,11 @@ h1, h2, h3, h4, h5, h6 {
         transition: padding 0.3s;
         border: none;
 	    .navbar-brand {
+//            background-image: url('../img/main-logo.png');
+//            	background-repeat: none;
+//	background-attachment: scroll;
+//	background-position: center center;
+            min-height:60px;
 	        font-size: 2em;
 	        -webkit-transition: all 0.3s;
 	        -moz-transition: all 0.3s;
@@ -151,6 +157,9 @@ h1, h2, h3, h4, h5, h6 {
 		.navbar-nav>.active>a {
 			border-radius: 3px;
 		}
+        .navbar-nav>li{
+            margin-top: 5px;
+        }
     }
     .navbar-default.navbar-shrink {
     	background-color: @gray-darkest;
@@ -238,10 +247,15 @@ section {
 }
 
 // Services Section
-
-.service-heading {
-	margin: 15px 0;
-	text-transform: none;
+#services{
+    background-image: url('../img/science-bg.jpg');
+    background-repeat: none;
+	background-attachment: scroll;
+	background-position: center center;
+    .service-heading {
+        margin: 15px 0;
+        text-transform: none;
+    }
 }
 
 // Portfolio Section

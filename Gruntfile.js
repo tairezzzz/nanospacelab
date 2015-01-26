@@ -119,6 +119,23 @@ module.exports = function(grunt) {
                     spawn: false,
                 }
             },
+        },
+        connect: {
+            server: {
+                options: {
+                    keepalive: true,
+                    port: 9000,
+                    base: './dist',
+                    open: true,
+                    hostname: 'localhost',
+                    livereload: 35729
+                },
+                livereload: {
+                    options: {
+                        open: true,
+                    }
+                }
+            }
         }
     });
 
@@ -129,6 +146,7 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-less');
     grunt.loadNpmTasks('grunt-banner');
     grunt.loadNpmTasks('grunt-contrib-watch');
+    grunt.loadNpmTasks('grunt-contrib-connect');
 
     // Default task(s).
     grunt.registerTask('default', ['concat', 'uglify', 'copy', 'less', 'usebanner']);
