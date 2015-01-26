@@ -78,6 +78,17 @@ h1, h2, h3, h4, h5, h6 {
 	padding: 20px 40px;
 }
 
+// Custom menu
+
+//#fixed-menu {
+//    position: fixed;
+//    top: 70px;
+//    left: 30px;
+//    width: 220px;
+//    height: 40px;
+//    background-color: transparent;
+//}
+
 // Custom Navigation Bar
 
 .navbar-default {
@@ -179,6 +190,7 @@ header {
 	text-align: center;
 	color: white;
 	.intro-text {
+        visibility: hidden;
 		padding-top: 100px;
 		padding-bottom: 50px;
 		.intro-lead-in {
@@ -247,15 +259,28 @@ section {
 }
 
 // Services Section
-#services{
+#science{
     background-image: url('../img/science-bg.jpg');
     background-repeat: none;
 	background-attachment: scroll;
 	background-position: center center;
-    .service-heading {
-        margin: 15px 0;
-        text-transform: none;
+    .text-central{
+        color: @blue-text;
+        font-family: 'PT Sans', sans-serif;
+        font-size: 14px;
+        text-align: left;
     }
+    img{
+        
+    }
+}
+
+// News Section
+#news{
+    background-image: url('../img/news-bg.jpg');
+    background-repeat: none;
+	background-attachment: scroll;
+	background-position: center center;
 }
 
 // Portfolio Section
@@ -545,7 +570,7 @@ aside.clients {
 
 section#contact {
 	background-color: @gray-darkest;
-	background-image: url('../img/map-image.png');
+	background-image: url('../img/contact-bg.jpg');
 	background-position: center;
 	background-repeat: no-repeat;
 	.section-heading {
