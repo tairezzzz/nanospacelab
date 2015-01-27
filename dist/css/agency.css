@@ -191,6 +191,10 @@ fieldset[disabled] .btn-xl.active {
   color: white;
   background-color: #bdbdbd;
 }
+.navbar-default .img-logo {
+  max-width: 140px;
+  margin-top: -14px;
+}
 @media (min-width: 768px) {
   .navbar-default {
     background-color: transparent;
@@ -219,6 +223,10 @@ fieldset[disabled] .btn-xl.active {
   }
   .navbar-default.navbar-shrink .navbar-brand {
     font-size: 1.5em;
+  }
+  .img-logo {
+    max-width: 200px !important;
+    margin-top: -20px !important;
   }
 }
 header {
@@ -254,9 +262,6 @@ header .intro-text .intro-heading {
   margin-bottom: 25px;
 }
 @media (min-width: 798px) {
-  header {
-    min-height: 768px;
-  }
   header .intro-text {
     padding-top: 300px;
     padding-bottom: 200px;
@@ -278,7 +283,7 @@ header .intro-text .intro-heading {
   }
 }
 section {
-  padding: 100px 0;
+  padding: 20px 0;
 }
 section h2.section-heading {
   font-size: 40px;
@@ -293,9 +298,14 @@ section h3.section-subheading {
   font-weight: 400;
   margin-bottom: 75px;
 }
+@media (min-width: 100px) {
+  .subimg-size {
+    width: 14em;
+  }
+}
 @media (min-width: 768px) {
   section {
-    padding: 150px 0;
+    padding: 14em 0;
   }
 }
 #science {
@@ -315,7 +325,7 @@ section h3.section-subheading {
 }
 #science .text-central {
   color: #174486;
-  font-size: 16px;
+  font-size: 1em;
   text-align: left;
   font-weight: bolder;
 }
@@ -325,7 +335,7 @@ section h3.section-subheading {
 }
 #science .text-header {
   color: #174486;
-  font-size: 24px;
+  font-size: 1.5em;
   text-align: left;
 }
 #news {
@@ -335,7 +345,7 @@ section h3.section-subheading {
 }
 #news .text-central {
   color: #ffffff;
-  font-size: 16px;
+  font-size: 1em;
   text-align: left;
   font-weight: bolder;
 }
@@ -345,7 +355,7 @@ section h3.section-subheading {
 }
 #news .text-header {
   color: #ffffff;
-  font-size: 24px;
+  font-size: 1.5em;
   text-align: left;
 }
 aside.clients img {
