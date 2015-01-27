@@ -19,10 +19,6 @@
 
     <!-- Custom Fonts -->
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -55,8 +51,8 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
+                    <li>
+                        <a href="#page-top">About</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#science">Science and Industry</a>
@@ -64,15 +60,19 @@
                     <li>
                         <a class="page-scroll" href="#news">News</a>
                     </li>
+<!--
                     <li>
                         <a class="page-scroll" href="#portfolio">Portfolio</a>
                     </li>
+-->
+<!--
                     <li>
                         <a class="page-scroll" href="#about">About</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#team">Team</a>
                     </li>
+-->
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
                     </li>
@@ -141,20 +141,20 @@
                 <div class="col-md-4">
                 </div>
                 <div class="col-md-4">
-                    <div class="row"><h3>NanoLab NL. NanoLab NL</h3></div>
+                    <p class="text-header">NanoLab NL. NanoLab NL</p>
                     <p class="text-central">
                         The MESA+ research programs are directly related to the national research program NanoNed. In NanoNed the importance of a national facility has been acknowledged, and a major part of the effort and the accompanying budget is dedicated to NanoLab NL. NanoLab NL has the aim to build up, maintain and provide a coherent and accessible high-level, state-of-the-art infra-structure for nanotechnological research and innovation in the Netherlands. NanoLab NL is about national cohesion in infrastructure, access, and tariff structure. MESA+ is proud to be part of the national consortium NanoLab NL. MESA+ NanoLab plays a central part in collaborations with industry. MESA+ has a strong relationship with industry, both through joint research projects with the larger multinational companies, and through a cooperation policy focused on small and medium- sized enterprises.
                     </p>
                 </div>
                 <div class="col-md-4">
                     <div class="row">
-                        <img class="img-responsive" src="/img/science/science-1.jpg">
+                        <img src="/img/science/science-1.jpg">
                     </div>
                     <div class="row">
-                        <img class="img-responsive" src="/img/science/science-2.jpg">
+                        <img class="img-central" src="/img/science/science-2.jpg">
                     </div>
                     <div class="row">
-                        <img class="img-responsive" src="/img/science/science-3.jpg">
+                        <img src="/img/science/science-3.jpg">
                     </div>
                 </div>
             </div>
@@ -165,7 +165,8 @@
     <section id="news">
     </section>
 
-    <!-- Portfolio Grid Section -->
+<!--
+     Portfolio Grid Section 
     <section id="portfolio" class="bg-light-gray">
         <div class="container">
             <div class="row">
@@ -262,8 +263,107 @@
             </div>
         </div>
     </section>
+ Portfolio Grid Section 
+    <section id="portfolio" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Portfolio</h2>
+                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/roundicons.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Round Icons</h4>
+                        <p class="text-muted">Graphic Design</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/startup-framework.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Startup Framework</h4>
+                        <p class="text-muted">Website Design</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/treehouse.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Treehouse</h4>
+                        <p class="text-muted">Website Design</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/golden.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Golden</h4>
+                        <p class="text-muted">Website Design</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/escape.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Escape</h4>
+                        <p class="text-muted">Website Design</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/dreams.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Dreams</h4>
+                        <p class="text-muted">Website Design</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+-->
 
     <!-- About Section -->
+<!--
     <section id="about">
         <div class="container">
             <div class="row">
@@ -343,8 +443,10 @@
             </div>
         </div>
     </section>
+-->
 
     <!-- Team Section -->
+<!--
     <section id="team" class="bg-light-gray">
         <div class="container">
             <div class="row">
@@ -408,6 +510,7 @@
         </div>
     </section>
 
+-->
     <!-- Clients Aside -->
     <aside class="clients">
         <div class="container">
