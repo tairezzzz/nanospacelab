@@ -314,14 +314,34 @@ section h3.section-subheading {
   background-attachment: scroll;
   background-position: center center;
 }
-#science :before {
-  content: " ";
+#science .bg-width {
   width: 100%;
-  height: 100%;
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  left: 0;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+#science .bg-opacity {
+  background: -moz-radial-gradient(center, ellipse cover, #ffffff 0%, rgba(255, 255, 255, 0) 63%);
+  /* FF3.6+ */
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #ffffff), color-stop(63%, rgba(255, 255, 255, 0)));
+  /* Chrome,Safari4+ */
+  background: -webkit-radial-gradient(center, ellipse cover, #ffffff 0%, rgba(255, 255, 255, 0) 63%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-radial-gradient(center, ellipse cover, #ffffff 0%, rgba(255, 255, 255, 0) 63%);
+  /* Opera 12+ */
+  background: -ms-radial-gradient(center, ellipse cover, #ffffff 0%, rgba(255, 255, 255, 0) 63%);
+  /* IE10+ */
+  background: radial-gradient(ellipse at center, #ffffff 0%, rgba(255, 255, 255, 0) 63%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#00ffffff', GradientType=1);
+  /* IE6-9 fallback on horizontal gradient */
+}
+#science .text-container {
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 3px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 0 10px;
 }
 #science .text-central {
   color: #174486;
@@ -372,6 +392,27 @@ section#contact .text-central {
   font-size: 16px;
   text-align: left;
   font-weight: bolder;
+}
+section#contact .bg-width {
+  width: 100%;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+section#contact .bg-opacity {
+  background: -moz-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 59%, rgba(0, 0, 0, 0) 88%);
+  /* FF3.6+ */
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(0, 0, 0, 0.65)), color-stop(59%, rgba(0, 0, 0, 0)), color-stop(88%, rgba(0, 0, 0, 0)));
+  /* Chrome,Safari4+ */
+  background: -webkit-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 59%, rgba(0, 0, 0, 0) 88%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 59%, rgba(0, 0, 0, 0) 88%);
+  /* Opera 12+ */
+  background: -ms-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 59%, rgba(0, 0, 0, 0) 88%);
+  /* IE10+ */
+  background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 59%, rgba(0, 0, 0, 0) 88%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a6000000', endColorstr='#00000000', GradientType=1);
+  /* IE6-9 fallback on horizontal gradient */
 }
 @media (min-width: 767px) {
   #contact {
