@@ -308,9 +308,45 @@ section h3.section-subheading {
     padding: 8em 0;
   }
 }
-@media (min-width: 798px) {
+@media (min-width: 1024px) {
+  header {
+    min-height: 768px;
+  }
   section {
-    padding: 14em 0;
+    min-height: 768px;
+  }
+}
+@media (min-width: 1280px) {
+  header {
+    min-height: 800px;
+  }
+  section {
+    min-height: 800px;
+  }
+}
+@media (min-height: 950px) {
+  header {
+    min-height: 950px;
+  }
+  section {
+    min-height: 950px;
+  }
+}
+@media (min-width: 1440px) {
+  header {
+    min-height: 900px;
+  }
+  section {
+    min-height: 900px;
+  }
+}
+@media (min-width: 1920px) {
+  header {
+    min-height: 1280px;
+  }
+  section {
+    min-height: 1280px;
+    padding: 27em 0;
   }
 }
 #science {
@@ -418,11 +454,6 @@ section#contact .bg-opacity {
   /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a6000000', endColorstr='#00000000', GradientType=1);
   /* IE6-9 fallback on horizontal gradient */
-}
-@media (min-width: 767px) {
-  #contact {
-    min-height: 728px;
-  }
 }
 footer {
   padding: 25px 0;
