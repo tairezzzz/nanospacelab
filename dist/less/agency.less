@@ -190,9 +190,14 @@ header {
 	background-repeat: none;
 	background-attachment: scroll;
 	background-position: center center;
+    -webkit-filter: blur(2px);
+    filter: blur(2px);
 	.background-cover;
 	text-align: center;
 	color: white;
+    .bg-filter{
+        filter: blur(20px) grayscale(20%);
+    }
 	.intro-text {
         visibility: hidden;
 		padding-top: 100px;
@@ -365,7 +370,7 @@ section {
 	background-attachment: scroll;
 	background-position: center center;
     .text-central{
-        color: @white;
+        color: @blue-light-text;
         font-size: 1em;
         text-align: left;
         font-weight: bolder;
@@ -375,7 +380,7 @@ section {
         margin-bottom: 3em;
     }
     .text-header{
-        color: @white;
+        color: @blue-light-text;
         font-size: 1.5em;
         text-align: left;
     }
@@ -672,7 +677,7 @@ section#contact {
 	background-position: center;
 	background-repeat: no-repeat;
 	.text-central{
-        color: @white;
+        color: @blue-light-text;
         font-size: 16px;
         text-align: left;
         font-weight: bolder;
