@@ -234,8 +234,6 @@ header {
   background-repeat: none;
   background-attachment: scroll;
   background-position: center center;
-  -webkit-filter: blur(2px);
-  filter: blur(2px);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
