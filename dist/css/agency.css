@@ -184,6 +184,17 @@ fieldset[disabled] .btn-xl.active {
   color: #d6d6d6;
   outline: none;
 }
+.navbar-default .nav li a#en {
+  float: left;
+  margin-left: -25px;
+}
+.navbar-default .nav li a#pl {
+  float: left;
+  margin-right: -25px;
+}
+.navbar-default .nav li a#slash {
+  float: left;
+}
 .navbar-default .navbar-nav > .active > a {
   border-radius: 0;
   color: white;
