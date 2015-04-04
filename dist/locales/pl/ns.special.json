@@ -1,0 +1,44 @@
+{
+    "nav": {
+        "1": "O nas",
+        "2": "Nauka i Przemysł",
+        "3": "Nowości",
+        "4": "Kontakt"
+    },
+    "about-text": {
+        "1": "Spółka powstała w 2011 roku. Skupiamy specjalistów z różnych dziedzin zarówno ze świata nauki jak i przemysłu.",
+        "2": "W multidyscyplinarnych zespołach realizujemy misję łączenia nauki z przemysłem. Dobieramy najlepszych specjalistów ze świata nauki do realizacji potrzeb partnerów przemysłowych oraz w takim samym stopniu zajmujemy się poszukiwaniem partnerów przemysłowych zainteresowanych nowymi technologiami opracowanymi przez naszych partnerów ze świata nauki.",
+        "3": "W celu zwiększenia skali naszych działań oraz redukcji ryzyka wynikającego z realizacji projektów poszukujemy dodatkowych źródeł finansowania poprzez pozyskiwanie Funduszy Europejskich oraz innych środków publicznych jak i prywatnych.",
+        "4": "Jesteśmy otwarci na współpracę z młodymi ambitnymi naukowcami oraz ze zdolnymi studentami. Posiadamy środki własne jak również reprezentujemy partnerów mogących zainwestować w interesujące pomysły. Dysponujemy również zapleczem prawnym jak i administracyjnym w celu zapewnienia poszanowania własności intelektualnej naszych partnerów.",
+        "5": "Misja:",
+        "6": "Łączymy naukę z przemysłem, przekształcając wiedzę naukową w innowacje technologiczne."
+    },
+    "science-text": {
+        "1": "Działalność gospodarcza:",
+        "2": "Usługi outsourcingowe w zakresie badań i rozwoju",
+        "3": "Consulting technologiczny",
+        "4": "Pozyskiwanie i realizacja projektów Europejskich",
+        "5": "Tworzenie nowych przedsiębiorstw (Start-up, Spin off)",
+        "6": "Reprezentowanie partnerów przemysłowych",
+        "7": "Zakres obecnie prowadzonych prac:",
+        "8": "Projektowanie i produkcja podlozy do badan przesiewowych materialow organicznych ",
+        "9": "Automatyzacja procesow pomiarowych w badaniach przesiewowych materialow organicznych",
+        "10": "Szerokie spektrum prac badawczych i inzynieryjnych wysokiej poufnosci - R&D outsourcing"
+    },
+    "news-text": {
+        "1": "Zrealizowane i realizowane projekty:",
+        "2": "Maski cieniowe do wytwarzania struktur tranzystorów organicznych.",
+        "3": "Podłoża szklane 2.0 x 1.5 x 0.7 mm z naniesionymi na nie złotymi i srebrnymi strukturami grzebieniowymi źródła i drenu służących do wytwarzania tranzystorów organicznych o parametrach kanału tranzystorów L = 2, 5, 10, 20 i 50 um, W = 72 mm.",
+        "4": "Zautomatyzowany system pomiarowy dla pomiarów przesiewowych materiałów organicznych - w trakcie budowy."
+    },
+    "contact-text": {
+        "1": "NanoSpaceLab Sp. z.o.o",
+        "2": "Warszawska 24 lok. 2",
+        "3": "97-200 Tomaszów Mazowiecki",
+        "4": "Polska",
+        "5": "NIP: 773-246-90-07",
+        "6": "REGON: 101272513",
+        "7": "KRS: 0000394044",
+        "8": "Tel./Fax.: +48 44 723 32 33"
+    }
+}

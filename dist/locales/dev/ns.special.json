@@ -1,0 +1,44 @@
+{
+    "nav": {
+        "1": "About",
+        "2": "Science and Industry",
+        "3": "News",
+        "4": "Contact"
+    },
+    "about-text": {
+        "1": "The company was founded in 2011. We are physicists, material scientists, chemists, process engineers and computer science engineers with wide European industrial experience.",
+        "2": "Our mission is to link science and industry to achieve synergy effects. We are selecting best experts from science area to meet the needs of individual industrial partners and to the same extent we are looking for industrial partners interested in new technologies developed by our partners from science.",
+        "3": "In order to increase the scale of our operations and reduce risks arising from the projects we are looking for additional sources of funding by attracting European funds and other public and private sources.",
+        "4": "We are open to collaboration with the open-mined young ambitious researchers and talented students with unique ideas. We have our own resources as well as represent the partners may invest in interesting ideas. We are attaching great importance to intellectual properties, patents and partners rights.",
+        "5": "Mission:",
+        "6": "We link research and industry, transforming the scientific knowledge into technological innovation."
+    },
+    "science-text": {
+        "1": "Activity:",
+        "2": "Research and development outsourcing services",
+        "3": "Technological consulting",
+        "4": "Acquisition and implementation of European Union Projects",
+        "5": "Creation of new companies (start-up, spin off)",
+        "6": "Representing the industrial partners",
+        "7": "The scope of ongoing projects:",
+        "8": "Design and fabrication of substrates for materials screening in the area of organic electronic",
+        "9": "Automation of measureing processes for organic electronic materials screening",
+        "10": "Broad spectrum of Research & Development engineering under high confidentiality contracts - R&D outsourcing"
+    },
+    "news-text": {
+        "1": "Completed and ongoing projects:",
+        "2": "Shadow masks for organic transistors fabrications.",
+        "3": "Glass substrates 2.0 x 1.5 x 0.7 mm with Cr/Au and Ag structured, interdigitated source and drain transistors electrodes for organic transistors materials screening with channel length L = 2, 5, 10, 20 i 50 um and channel width W = 72 mm.",
+        "4": "Automated system for organic electronic materials screening - ongoing."
+    },
+    "contact-text": {
+        "1": "NanoSpaceLab Ltd.",
+        "2": "Warszawska Str. 24/2",
+        "3": "97-200 Tomaszow Mazowiecki",
+        "4": "Poland",
+        "5": "NIP: 773-246-90-07",
+        "6": "REGON: 101272513",
+        "7": "KRS: 0000394044",
+        "8": "Phone/Fax: +48 44 723 32 33"
+    }
+}
