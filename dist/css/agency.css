@@ -169,6 +169,9 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-toggle:focus {
   background-color: #d6d6d6;
 }
+.navbar-default .nav .hidden-nav {
+  display: none;
+}
 .navbar-default .nav li a {
   font-family: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
@@ -318,6 +321,9 @@ section h3.section-subheading {
   section {
     min-height: 768px;
   }
+  section#contact {
+    min-height: 615px;
+  }
 }
 @media (min-width: 1280px) {
   header {
@@ -325,6 +331,9 @@ section h3.section-subheading {
   }
   section {
     min-height: 800px;
+  }
+  section#contact {
+    min-height: 710px;
   }
 }
 @media (min-height: 950px) {
@@ -334,6 +343,9 @@ section h3.section-subheading {
   section {
     min-height: 950px;
   }
+  section#contact {
+    min-height: 860px;
+  }
 }
 @media (min-width: 1440px) {
   header {
@@ -341,6 +353,9 @@ section h3.section-subheading {
   }
   section {
     min-height: 900px;
+  }
+  section#contact {
+    min-height: 730px;
   }
 }
 @media (min-width: 1920px) {
@@ -351,6 +366,44 @@ section h3.section-subheading {
     min-height: 1280px;
     padding: 27em 0;
   }
+  section#contact {
+    min-height: 1185px;
+  }
+}
+#about {
+  background-image: url('../img/header-bg.jpg');
+  background-repeat: none;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
+  color: white;
+}
+#about .bg-filter {
+  filter: blur(20px) grayscale(20%);
+}
+#about .intro-text {
+  visibility: hidden;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+#about .intro-text .intro-lead-in {
+  font-family: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: italic;
+  font-size: 22px;
+  line-height: 22px;
+  margin-bottom: 25px;
+}
+#about .intro-text .intro-heading {
+  font-family: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 50px;
+  margin-bottom: 25px;
 }
 #science {
   background: url('../img/science-bg.jpg') no-repeat;
