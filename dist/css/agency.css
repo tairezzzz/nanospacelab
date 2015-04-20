@@ -244,7 +244,6 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 header {
-  background-image: url('../img/header-bg.gif');
   background-repeat: none;
   background-attachment: scroll;
   background-position: center center;
@@ -254,6 +253,9 @@ header {
   -o-background-size: cover;
   text-align: center;
   color: white;
+}
+header .container {
+  min-width: 100%;
 }
 header .bg-filter {
   filter: blur(20px) grayscale(20%);
@@ -326,9 +328,6 @@ section h3.section-subheading {
   }
 }
 @media (min-width: 1024px) {
-  header {
-    min-height: 768px;
-  }
   section {
     min-height: 768px;
   }
@@ -337,9 +336,6 @@ section h3.section-subheading {
   }
 }
 @media (min-width: 1280px) {
-  header {
-    min-height: 800px;
-  }
   section {
     min-height: 800px;
   }
@@ -348,9 +344,6 @@ section h3.section-subheading {
   }
 }
 @media (min-height: 950px) {
-  header {
-    min-height: 950px;
-  }
   section {
     min-height: 950px;
   }
@@ -359,9 +352,6 @@ section h3.section-subheading {
   }
 }
 @media (min-width: 1440px) {
-  header {
-    min-height: 900px;
-  }
   section {
     min-height: 900px;
   }
@@ -370,9 +360,6 @@ section h3.section-subheading {
   }
 }
 @media (min-width: 1920px) {
-  header {
-    min-height: 1280px;
-  }
   section {
     min-height: 1280px;
     padding: 27em 0;

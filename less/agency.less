@@ -77,18 +77,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-size: 18px;
 	padding: 20px 40px;
 }
-
-// Custom menu
-
-//#fixed-menu {
-//    position: fixed;
-//    top: 70px;
-//    left: 30px;
-//    width: 220px;
-//    height: 40px;
-//    background-color: transparent;
-//}
-
+    
 // Custom Navigation Bar
 
 .navbar-default {
@@ -200,7 +189,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 header {
-	background-image: url('../img/header-bg.gif');
+	//background-image: url('../img/header-bg.gif');
+    .container{
+        min-width: 100%;
+    }
 	background-repeat: none;
 	background-attachment: scroll;
 	background-position: center center;
@@ -286,9 +278,6 @@ section {
 }
 
 @media(min-width:1024px) {
-	header{
-        min-height: 768px;
-	}
     section {
         min-height: 768px;
 	}
@@ -298,9 +287,6 @@ section {
 }
 
 @media(min-width:1280px) {
-	header{
-        min-height: 800px;
-	}
     section {
         min-height: 800px;
 	}
@@ -310,9 +296,6 @@ section {
 }
 
 @media(min-height:950px) {
-	header{
-        min-height: 950px;
-	}
     section {
         min-height: 950px;
 	}
@@ -323,9 +306,6 @@ section {
 }
 
 @media(min-width:1440px) {
-	header{
-        min-height: 900px;
-	}
     section {
         min-height: 900px;
 	}
@@ -335,9 +315,6 @@ section {
 }
 
 @media(min-width:1920px) {
-	header{
-        min-height: 1280px;
-	}
     section {
         min-height: 1280px;
         padding: 27em 0;
