@@ -78,6 +78,7 @@
 
     <!-- Header -->
     <header>
+        <!--
         <div class="container" data-vide-bg="img/video" data-vide-options="loop: true, muted: false, position: 0% 0%">
             <div class="intro-text">
                 <div class="intro-lead-in">Welcome To NanoSpaceLab!</div>
@@ -85,7 +86,24 @@
                 <a href="#services" class="page-scroll btn btn-xl">Tell Me More</a>
             </div>
         </div>
+-->
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-4"></div>
+                <div class="col-md-4"></div>
+                <div class="col-md-4 about-text">
+                    <br>
+                    <p data-i18n="about-text.1" class="text-central"></p>
+                    <p data-i18n="about-text.2" class="text-central"></p>
+                    <p data-i18n="about-text.3" class="text-central"></p>
+                    <p data-i18n="about-text.4" class="text-central"></p>
+                    <p data-i18n="about-text.5" class="text-header"></p>
+                    <p data-i18n="about-text.6" class="text-central"></p>
+                </div>
+            </div>
+        </div>
     </header>
+<!--
     <section id="about">
         <div class="container">
             <div class="row text-center">
@@ -103,6 +121,7 @@
             </div>
         </div>
     </section>
+-->
 
     <!-- Science Section -->
     <section id="science">
@@ -286,7 +305,7 @@
             debug: true
         }, function(t) {
             $('.nav').i18n();
-            $('.about-text').i18n();
+            $('header').i18n();
             $('.science-text').i18n();
             $('.news-text').i18n();
             $('.contact-text').i18n();

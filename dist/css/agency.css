@@ -263,6 +263,9 @@ header {
 header .container {
   min-width: 100%;
 }
+header .about-text {
+  margin-top: 100px;
+}
 header .bg-filter {
   filter: blur(20px) grayscale(20%);
 }
@@ -334,6 +337,7 @@ section h3.section-subheading {
   }
 }
 @media (min-width: 1024px) {
+  header,
   section {
     min-height: 768px;
   }
@@ -342,14 +346,16 @@ section h3.section-subheading {
   }
 }
 @media (min-width: 1280px) {
+  header,
   section {
     min-height: 800px;
   }
   section#contact {
-    min-height: 710px;
+    min-height: 635px;
   }
 }
 @media (min-height: 950px) {
+  header,
   section {
     min-height: 950px;
   }
@@ -358,6 +364,7 @@ section h3.section-subheading {
   }
 }
 @media (min-width: 1440px) {
+  header,
   section {
     min-height: 900px;
   }
@@ -366,6 +373,7 @@ section h3.section-subheading {
   }
 }
 @media (min-width: 1920px) {
+  header,
   section {
     min-height: 1280px;
     padding: 27em 0;
@@ -374,34 +382,31 @@ section h3.section-subheading {
     min-height: 1185px;
   }
 }
-#about {
+header {
   background-image: url('../img/header-bg.jpg');
   background-repeat: none;
   background-attachment: scroll;
   background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
   background-size: cover;
-  -o-background-size: cover;
   text-align: center;
   color: white;
 }
-#about .bg-filter {
+header .bg-filter {
   filter: blur(20px) grayscale(20%);
 }
-#about .intro-text {
+header .intro-text {
   visibility: hidden;
   padding-top: 100px;
   padding-bottom: 50px;
 }
-#about .intro-text .intro-lead-in {
+header .intro-text .intro-lead-in {
   font-family: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: italic;
   font-size: 22px;
   line-height: 22px;
   margin-bottom: 25px;
 }
-#about .intro-text .intro-heading {
+header .intro-text .intro-heading {
   font-family: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -409,13 +414,13 @@ section h3.section-subheading {
   line-height: 50px;
   margin-bottom: 25px;
 }
-#about .text-central {
+header .text-central {
   color: #88bdff;
   font-size: 1em;
   text-align: left;
   font-weight: bolder;
 }
-#about .text-header {
+header .text-header {
   color: #88bdff;
   font-size: 1.5em;
   text-align: left;

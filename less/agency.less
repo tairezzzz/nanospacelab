@@ -204,6 +204,9 @@ header {
 	background-repeat: none;
 	background-attachment: scroll;
 	background-position: center center;
+    .about-text{
+        margin-top:100px;
+    }
 	.background-cover;
 	text-align: center;
 	color: white;
@@ -286,7 +289,7 @@ section {
 }
 
 @media(min-width:1024px) {
-    section {
+    header,section {
         min-height: 768px;
 	}
     section#contact{
@@ -295,16 +298,16 @@ section {
 }
 
 @media(min-width:1280px) {
-    section {
+    header, section {
         min-height: 800px;
 	}
     section#contact{
-        min-height: 710px;
+        min-height: 635px;
     }
 }
 
 @media(min-height:950px) {
-    section {
+    header, section {
         min-height: 950px;
 	}
     section#contact{
@@ -314,7 +317,7 @@ section {
 }
 
 @media(min-width:1440px) {
-    section {
+    header, section {
         min-height: 900px;
 	}
     section#contact{
@@ -323,7 +326,7 @@ section {
 }
 
 @media(min-width:1920px) {
-    section {
+    header, section {
         min-height: 1280px;
         padding: 27em 0;
 	}
@@ -333,12 +336,12 @@ section {
 }
 
 
-#about {
+header {
 	background-image: url('../img/header-bg.jpg');
 	background-repeat: none;
 	background-attachment: scroll;
 	background-position: center center;
-	.background-cover;
+	background-size:cover;
 	text-align: center;
 	color: white;
     .bg-filter{
