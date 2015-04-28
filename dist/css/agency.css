@@ -230,6 +230,7 @@ fieldset[disabled] .btn-xl.active {
   }
   .navbar-default .navbar-nav > li {
     margin-top: 5px;
+    font-size: 13px;
   }
   .navbar-default.navbar-shrink {
     background-color: #222222;
@@ -241,6 +242,11 @@ fieldset[disabled] .btn-xl.active {
   .img-logo {
     max-width: 200px !important;
     margin-top: -20px !important;
+  }
+}
+@media (min-width: 1024px) {
+  .navbar-default .navbar-nav > li {
+    font-size: 16px;
   }
 }
 header {
@@ -519,6 +525,52 @@ section#contact .bg-opacity {
   /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a6000000', endColorstr='#00000000', GradientType=1);
   /* IE6-9 fallback on horizontal gradient */
+}
+section#contact .form-group {
+  margin-bottom: 25px;
+}
+section#contact .form-group input,
+section#contact .form-group textarea {
+  padding: 20px;
+}
+section#contact .form-group input.form-control {
+  height: 76px;
+}
+section#contact .form-group textarea.form-control {
+  height: 184px;
+}
+section#contact .form-control:focus {
+  border-color: #d6d6d6;
+  box-shadow: none;
+}
+section#contact ::-webkit-input-placeholder {
+  font-family: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #bbbbbb;
+}
+section#contact :-moz-placeholder {
+  /* Firefox 18- */
+  font-family: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #bbbbbb;
+}
+section#contact ::-moz-placeholder {
+  /* Firefox 19+ */
+  font-family: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #bbbbbb;
+}
+section#contact :-ms-input-placeholder {
+  font-family: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #bbbbbb;
+}
+section#contact .text-danger {
+  color: #e74c3c;
 }
 footer {
   padding: 25px 0;

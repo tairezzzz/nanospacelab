@@ -173,6 +173,7 @@ h1, h2, h3, h4, h5, h6 {
 		}
         .navbar-nav>li{
             margin-top: 5px;
+            font-size: 13px;
         }
     }
     .navbar-default.navbar-shrink {
@@ -188,6 +189,13 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
+@media(min-width:1024px) {
+    .navbar-default {
+        .navbar-nav>li{
+            font-size: 16px;
+        }
+    }
+}
 header {
 	//background-image: url('../img/header-bg.gif');
     .container{
@@ -745,6 +753,46 @@ background: -ms-radial-gradient(center, ellipse cover,  rgba(0,0,0,0.65) 0%,rgba
 background: radial-gradient(ellipse at center,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 59%,rgba(0,0,0,0) 88%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
     }
+    .form-group {
+		margin-bottom: 25px;
+		input,
+		textarea {
+			padding: 20px;
+		}
+		input.form-control {
+			height: 76px;
+		}
+		textarea.form-control {
+			height: 184px;
+		}
+	}
+	.form-control:focus {
+		border-color: @brand-primary;
+		box-shadow: none;
+	}
+	::-webkit-input-placeholder {
+	   .heading-font;
+	   font-weight: 700;
+	   color: @placeholder-text;
+	}
+	:-moz-placeholder { /* Firefox 18- */
+	   .heading-font;
+	   font-weight: 700;
+	   color: @placeholder-text;
+	}
+	::-moz-placeholder {  /* Firefox 19+ */
+	   .heading-font;
+	   font-weight: 700;
+	   color: @placeholder-text;
+	}
+	:-ms-input-placeholder {  
+	   .heading-font;
+	   font-weight: 700;
+	   color: @placeholder-text;
+	}
+	.text-danger {
+		color: @brand-danger;
+	}
 }
 
 // Footer
