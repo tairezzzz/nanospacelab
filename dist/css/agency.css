@@ -331,6 +331,19 @@ section h3.section-subheading {
     width: 14em;
   }
 }
+@media (min-height: 950px) {
+  header,
+  section {
+    min-height: 950px;
+  }
+  section#contact {
+    min-height: 860px;
+  }
+  header .about-text {
+    margin-top: 90px;
+    padding-right: 1em;
+  }
+}
 @media (min-width: 989px) {
   section {
     padding: 8em 0;
@@ -344,6 +357,10 @@ section h3.section-subheading {
   section#contact {
     min-height: 615px;
   }
+  header .about-text {
+    margin-top: 90px;
+    padding-right: 3em;
+  }
 }
 @media (min-width: 1280px) {
   header,
@@ -353,14 +370,9 @@ section h3.section-subheading {
   section#contact {
     min-height: 635px;
   }
-}
-@media (min-height: 950px) {
-  header,
-  section {
-    min-height: 950px;
-  }
-  section#contact {
-    min-height: 860px;
+  header .about-text {
+    margin-top: 90px;
+    padding-right: 3em;
   }
 }
 @media (min-width: 1440px) {
@@ -371,6 +383,10 @@ section h3.section-subheading {
   section#contact {
     min-height: 730px;
   }
+  header .about-text {
+    margin-top: 168px;
+    padding-right: 5em;
+  }
 }
 @media (min-width: 1920px) {
   header,
@@ -380,6 +396,10 @@ section h3.section-subheading {
   }
   section#contact {
     min-height: 1185px;
+  }
+  header .about-text {
+    margin-top: 50px;
+    padding-right: 10em;
   }
 }
 header {
@@ -515,6 +535,9 @@ section#contact .bg-width {
   padding-bottom: 50px;
   padding-top: 50px;
 }
+section#contact .col-md-8 {
+  margin-top: 3.5em;
+}
 section#contact .bg-opacity {
   background: -moz-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 59%, rgba(0, 0, 0, 0) 88%);
   /* FF3.6+ */
@@ -539,10 +562,10 @@ section#contact .form-group textarea {
   padding: 20px;
 }
 section#contact .form-group input.form-control {
-  height: 76px;
+  height: 50px;
 }
 section#contact .form-group textarea.form-control {
-  height: 184px;
+  height: 110px;
 }
 section#contact .form-control:focus {
   border-color: #d6d6d6;
